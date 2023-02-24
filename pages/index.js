@@ -7,7 +7,7 @@ function Home() {
         <div className="flex flex-col mt-10 lg:p-0 p-5 text-white gap-2">
           <h4 className="text-2xl">Hello, <span className="underline text-yellow-500">Bayu Priyambada</span> here!</h4>
           <p className="md:text-xl text-base text-justify whitespace-pre-line mt-2">
-            I am I Gde Bayu Priyambada Marayasa, I am a student of the faculty of informatics engineering and a high school teacher in Bogor.
+            I am I Gde Bayu Priyambada Marayasa, currently I am a teacher at the Informatics Engineering Vocational School.
           </p>
           <p className="md:text-xl text-base text-justify whitespace-pre-line mt-2">
             By fashion, I am currently an informatics engineering teacher in Bogor. I am very happy to share the knowledge I have learned for dedication in the world of education.
