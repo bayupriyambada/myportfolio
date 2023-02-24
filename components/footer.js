@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="mt-10">
+    <div className="md:mt-10 mt-5 lg:p-0 p-5">
       <span className="text-xl text-white">Simply designed by Bpriyambadam 🙌</span>
     </div>
   )
