@@ -3,7 +3,7 @@ import Container from '@/components/container'
 function Home() {
   return (
     <div>
-      <Container seo="Link Bio">
+      <Container title="Home - Bpriyambadam">
         <div className="flex flex-col mt-10 lg:p-0 p-5 text-white gap-2">
           <h4 className="text-2xl">Hello, <span className="underline text-yellow-500">Bayu Priyambada</span> here!</h4>
           <p className="md:text-xl text-base text-justify whitespace-pre-line mt-2">
