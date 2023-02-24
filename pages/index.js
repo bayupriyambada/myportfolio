@@ -1,7 +1,6 @@
 import Container from '@/components/container'
 
 function Home() {
-  const nowDate = new Date()
   return (
     <div>
       <Container seo="Link Bio">

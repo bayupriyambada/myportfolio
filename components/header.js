@@ -19,6 +19,9 @@ function Header() {
                     <div>
                         <Link href="#" className={router.asPath === '#' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Contact</Link>
                     </div>
+                    <div>
+                        <Link href="#" className={router.asPath === '#' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Download CV</Link>
+                    </div>
                 </div>
             </div>
         </>
