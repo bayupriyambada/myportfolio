@@ -2,25 +2,27 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 function Header() {
     const router = useRouter()
+    const IsActiveMenu = "menuactive text-yellow-300 md:text-xl text-base"
+    const IsNonActiveMenu = "menuhover text-slate-50 hover:text-yellow-300 md:text-xl text-base"
     return (
         <>
             <h1 className="text-2xl font-bold text-white text-center">BPRIYAMBADAM</h1>
             <div className="mt-4">
                 <div className="flex justify-center items-center gap-3">
                     <div>
-                        <Link href="/" className={router.asPath === '/' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>About Me</Link>
+                        <Link href="/" className={router.asPath === '/' ? IsActiveMenu : IsNonActiveMenu}>About Me</Link>
                     </div>
                     <div>
-                        <Link href="/certification" className={router.asPath === '/certification' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Certification</Link>
+                        <Link href="/certification" className={router.asPath === '/certification' ? IsActiveMenu : IsNonActiveMenu}>Certification</Link>
                     </div>
                     <div>
-                        <Link href="#" className={router.asPath === '#' ? "text-yellow-500  md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Projects</Link>
+                        <Link href="/projects" className={router.asPath === '/projects' ? IsActiveMenu : IsNonActiveMenu}>Projects</Link>
                     </div>
                     <div>
-                        <Link href="#" className={router.asPath === '#' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Contact</Link>
+                        <Link href="/technology" className={router.asPath === '/technology' ? IsActiveMenu : IsNonActiveMenu}>Technology</Link>
                     </div>
                     <div>
-                        <Link href="#" className={router.asPath === '#' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Download CV</Link>
+                        <Link href="#" className={router.asPath === '#' ? IsActiveMenu : IsNonActiveMenu}>Contact</Link>
                     </div>
                 </div>
             </div>

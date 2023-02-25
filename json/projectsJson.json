@@ -1,34 +1,31 @@
 [
     {
         "projects" : "Android Studio",
-        "information" : {
-            "urlBootcamp" :"https://www.rumahcoding.co.id/",
-            "year" : 2019,
-            "nameBootcamp": "Rumah Coding"
-        }
+        "imageUrl": "https://dummyimage.com/350x350/000/fff",
+        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
+        "url": "#",
+        "technology" : ["test", "test2"]
     },
     {
-        "projects" : "Wordpress Development",
-        "information" : {
-            "urlBootcamp" :"https://www.sanbercode.com/",
-            "year" : 2020,
-            "nameBootcamp": "Sanbercode"
-        }
+        "projects" : "Android Studio2",
+        "imageUrl": "https://dummyimage.com/350x350/000/fff",
+        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
+        "url": "#",
+        "technology" : ["test", "test2"]
     },
     {
-        "projects" : "Laravel Development",
-        "information" : {
-            "urlBootcamp" :"https://www.sanbercode.com/",
-            "year" : 2021,
-            "nameBootcamp": "Sanbercode"
-        }
+        "projects" : "Android Studio3",
+        "imageUrl": "https://dummyimage.com/350x350/000/fff",
+        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
+        "url": "#",
+        "technology" : ["test", "test2"]
     },
     {
-        "projects" : "Nodejs - Adonis",
-        "information" : {
-            "urlBootcamp" :"https://www.sanbercode.com/",
-            "year" : 2021,
-            "nameBootcamp": "Sanbercode"
-        }
+        "projects" : "Android Studio3",
+        "imageUrl": "https://dummyimage.com/350x350/000/fff",
+        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
+        "url": "#",
+        "technology" : ["test", "test2"]
     }
+    
 ]

@@ -1,0 +1,10 @@
+{
+    "type" : {
+        "education" : [ 
+            "FIGMA", "HTML" , "CSS", "JAVASCRIPT", "WORDPRESS", "PHP" , "LARAVEL", "REACT", "REST API"
+        ],
+        "personal" : [
+            "FIGMA", "HTML" , "CSS", "JAVASCRIPT", "WORDPRESS", "PHP" , "LARAVEL", "REACT", "REST API", "LARAVEL LUMEN", "QUALITY ASSURANCE", "NUXTJS", "NODEJS", "CANVA"
+        ]
+    }
+}
