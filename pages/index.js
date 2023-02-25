@@ -17,7 +17,7 @@ function Home() {
           <p className="md:text-xl text-base text-justify mt-2">
             I like to make impromptu applications to continue to hone my knowledge to be able to maintain the times. And I will continue to learn about the religion that I live for the hereafter.
           </p>
-          <div>
+          <div className='mt-2'>
             <a href='https://drive.google.com/file/d/1CUF7m4cn0YreF4btlykNV_I0jIeBuhNf/view?usp=sharing' className='border border-yellow-300 hover:border-yellow-500 shadow-sm rounded-sm font-bold px-5 py-2 text-gray-50'>
               Visit my cv, and have a look.
             </a>

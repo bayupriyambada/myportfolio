@@ -1,22 +1,37 @@
 import Container from '@/components/container'
-
+import techJson from '@/json/techJson'
+import { AiOutlineInstagram, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
+import { SiHashnode } from 'react-icons/si'
 function Contact() {
   return (
-     <div>
-         <Container seo="Link Bio">
-           <p className="text-xl text-justify whitespace-pre-line">
-          I am I Gde Bayu Priyambada Marayasa, I am a student of the faculty of informatics engineering and a high school teacher in Bogor.
+    <div>
+      <Container title="Contact - Bpriyambadam">
+        <div className="flex flex-col mt-10 text-white select-none">
+          <div className='flex flex-col gap-2'>
+            <p className='md:text-xl text-base text-justify mt-2'>Information about me, via Social Media :</p>
+            <div className='flex flex-col gap-3'>
+              <a href='https://www.instagram.com/bpriyambadam/' className='flex gap-1 items-center'>
+                <AiOutlineInstagram className='text-3xl text-yellow-500' />
+                <span>bpriyambadam</span>
+              </a>
+              <a href='https://id.linkedin.com/in/bayu-priyambada-769155213' className='flex gap-1 items-center'>
+                <AiFillLinkedin className='text-3xl text-blue-500' />
+                <span>bayupriyambada</span>
+              </a>
+              <a href='#' className='flex gap-1 items-center '>
+                <AiOutlineMail className='text-3xl text-red-500' />
+                <span>bayupm124@gmail.com / kampuspb.bayu@gmail.com</span>
+              </a>
+              <a href='https://hashnode.com/@bayucode' target="_blank" className='flex gap-1 items-center '>
+                <SiHashnode className='text-3xl text-red-500' />
+                <span>@bayucode</span>
+              </a>
+            </div>
+          </div>
 
-          By fashion, I am currently an informatics engineering teacher in Bogor. I am very happy to share the knowledge I have learned for dedication in the world of education.
-
-          Likewise, I am happy with seeking knowledge that I will achieve starting from searching through Google, training and seminars.
-
-          I like to make impromptu applications to continue to hone my knowledge to be able to maintain the times. And I will continue to learn about the religion that I live for the hereafter.
-
-          The purpose of life is not only in this world, but in the hereafter eternal life.
-        </p>
+        </div>
       </Container>
-      </div>
+    </div>
   )
 }
 

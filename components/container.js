@@ -9,7 +9,7 @@ function Container({ children, title }) {
         <div>
           <Header />
           <Head>
-              <title>{title}</title>
+            <title>{title}</title>
            </Head>
            {children}
         </div>

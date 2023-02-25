@@ -22,7 +22,7 @@ function Header() {
                         <Link href="/technology" className={router.asPath === '/technology' ? IsActiveMenu : IsNonActiveMenu}>Technology</Link>
                     </div>
                     <div>
-                        <Link href="#" className={router.asPath === '#' ? IsActiveMenu : IsNonActiveMenu}>Contact</Link>
+                        <Link href="/contact" className={router.asPath === '/contact' ? IsActiveMenu : IsNonActiveMenu}>Contact</Link>
                     </div>
                 </div>
             </div>
