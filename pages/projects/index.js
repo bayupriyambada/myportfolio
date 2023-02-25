@@ -1,6 +1,8 @@
 import Container from '@/components/container'
 
 function Projects() {
+
+
   return (
      <div>
          <Container seo="Link Bio">

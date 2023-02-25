@@ -11,7 +11,7 @@ function Header() {
                         <Link href="/" className={router.asPath === '/' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>About Me</Link>
                     </div>
                     <div>
-                        <Link href="#" className={router.asPath === '#' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Certification</Link>
+                        <Link href="/certification" className={router.asPath === '/certification' ? "text-yellow-500 md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Certification</Link>
                     </div>
                     <div>
                         <Link href="#" className={router.asPath === '#' ? "text-yellow-500  md:text-xl text-base underline" : "text-slate-50 hover:text-slate-300 md:text-xl text-base hover:underline"}>Projects</Link>

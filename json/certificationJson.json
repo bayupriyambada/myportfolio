@@ -1,0 +1,34 @@
+[
+    {
+        "training" : "Android Studio",
+        "information" : {
+            "urlBootcamp" :"https://www.rumahcoding.co.id/",
+            "year" : 2019,
+            "nameBootcamp": "Rumah Coding"
+        }
+    },
+    {
+        "training" : "Wordpress Development",
+        "information" : {
+            "urlBootcamp" :"https://www.sanbercode.com/",
+            "year" : 2020,
+            "nameBootcamp": "Sanbercode"
+        }
+    },
+    {
+        "training" : "Laravel Development",
+        "information" : {
+            "urlBootcamp" :"https://www.sanbercode.com/",
+            "year" : 2021,
+            "nameBootcamp": "Sanbercode"
+        }
+    },
+    {
+        "training" : "Nodejs - Adonis",
+        "information" : {
+            "urlBootcamp" :"https://www.sanbercode.com/",
+            "year" : 2021,
+            "nameBootcamp": "Sanbercode"
+        }
+    }
+]
