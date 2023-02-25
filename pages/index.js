@@ -1,5 +1,4 @@
 import Container from '@/components/container'
-import techJson from '@/json/techJson'
 function Home() {
   return (
     <div>
@@ -18,23 +17,11 @@ function Home() {
           <p className="md:text-xl text-base text-justify mt-2">
             I like to make impromptu applications to continue to hone my knowledge to be able to maintain the times. And I will continue to learn about the religion that I live for the hereafter.
           </p>
-          <div className='flex flex-col gap-2'>
-            <p className='md:text-xl text-base text-justify mt-2'>Now I use technology for education :</p>
-            <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-2'>
-              {techJson.type.education.map((items, index) => {
-                return (
-                  <button key={index} className='border border-yellow-300 hover:border-yellow-500 py-0.5 rounded-md'>
-                    <span>
-                      {items}
-                    </span>
-                  </button>
-                )
-              })}
-            </div>
+          <div>
+            <a href='https://drive.google.com/file/d/1CUF7m4cn0YreF4btlykNV_I0jIeBuhNf/view?usp=sharing' className='border border-yellow-300 hover:border-yellow-500 shadow-sm rounded-sm font-bold px-5 py-2 text-gray-50'>
+              Visit my cv, and have a look.
+            </a>
           </div>
-          <p>
-            You can review my CV via MY CV LINK
-          </p>
           <p className="md:text-xl text-base text-justify mt-2">
             The purpose of life is not only in this world, but in the hereafter eternal life.
           </p>
