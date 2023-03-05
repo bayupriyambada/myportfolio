@@ -1,36 +1,73 @@
-import Container from '@/components/container'
+import AboutTabs from '@/components/tabs/about'
+import CertificationTabs from '@/components/tabs/certification'
+import ContactTabs from '@/components/tabs/contact'
+import ProjectsTabs from '@/components/tabs/projects'
+import TechnologyTabs from '@/components/tabs/technology'
+import Head from 'next/head'
+import { useState } from 'react'
 function Home() {
+    const [activeTabs, setActiveTab] = useState("about")
+
+    const handleTabSelect = (tab) => {
+      setActiveTab(tab)
+    }
+
+    const menuActive = "lg:text-base md:text-sm bg-[#FCC75B] shadow-md px-2 py-1 rounded-sm text-gray-50"
+    const nonMenuActive = "lg:text-base md:text-sm hover:bg-[#FCC75B] transition duration-100 hover:shadow-md px-2 py-1 rounded-sm text-gray-50"
   return (
     <div>
-      <Container title="Home - Bpriyambadam">
-        <div className="flex flex-col mt-10 lg:p-0 p-5 text-white gap-2 select-none">
-          <h4 className="text-2xl">Hello, <span className="my-name text-yellow-300">Bayu Priyambada</span> here!</h4>
-          <p className="md:text-xl text-base text-justify mt-2 indent-8">
-            I am I Gde Bayu Priyambada Marayasa, currently I am a teacher at the Informatics Engineering Vocational School.
-          </p>
-          <p className="md:text-xl text-base text-justify mt-2">
-            By fashion, I am currently an informatics engineering teacher in Bogor. I am very happy to share the knowledge I have learned for dedication in the world of education.
-          </p>
-          <p className="md:text-xl text-base text-justify mt-2">
-            Likewise, I am happy with seeking knowledge that I will achieve starting from searching through Google, training and seminars.
-          </p>
-          <p className="md:text-xl text-base text-justify mt-2">
-            I like to make impromptu applications to continue to hone my knowledge to be able to maintain the times. And I will continue to learn about the religion that I live for the hereafter.
-          </p>
-          <div className='mt-2'>
-            <a href='https://drive.google.com/file/d/1CUF7m4cn0YreF4btlykNV_I0jIeBuhNf/view?usp=sharing' className='border border-yellow-300 hover:border-yellow-500 shadow-sm rounded-sm font-bold px-5 py-2 text-gray-50'>
-              Visit my cv, and have a look.
-            </a>
-          </div>
-          <p className="md:text-xl text-base text-justify mt-2">
-            The purpose of life is not only in this world, but in the hereafter eternal life.
-          </p>
-          <hr className='w-24' />
-          <p className="md:text-xl text-base text-justify mt-2">
-            You can visit the <span className="underline text-yellow-500"><a href='#'> Learn Through Ebook </a></span> Page to learn using the free ebook.
-          </p>
-        </div>
-      </Container>
+      <Head>
+        <title>Bayu priyambada - Web Development</title>
+      </Head>
+      <div className='flex lg:gap-3 md:gap-2 gap-1 items-center mt-4 justify-center'>
+        <button className={`${
+              activeTabs === "about"
+                ? menuActive
+                : nonMenuActive
+            }`}
+            onClick={() => handleTabSelect("about")}>About</button>
+        <button className={`${
+              activeTabs === "certification"
+                ? menuActive
+                : nonMenuActive
+            }`}
+            onClick={() => handleTabSelect("certification")}>Certification</button>
+        <button className={`${
+              activeTabs === "projects"
+                ? menuActive
+                : nonMenuActive
+            }`}
+            onClick={() => handleTabSelect("projects")}>Projects</button>
+        <button className={`${
+              activeTabs === "technology"
+                ? menuActive
+                : nonMenuActive
+            }`}
+            onClick={() => handleTabSelect("technology")}>Technology</button>
+        <button className={`${
+              activeTabs === "contact"
+                ? menuActive
+                : nonMenuActive
+            }`}
+            onClick={() => handleTabSelect("contact")}>Contact</button>
+      </div>
+      <div className='lg:pt-12 pt-5 lg:px-0 px-7'>
+        {activeTabs === "about" && (
+          <AboutTabs/>
+          )}
+        {activeTabs === "certification" && (
+            <CertificationTabs/>
+          )}
+        {activeTabs === "projects" && (
+            <ProjectsTabs/>
+          )}
+        {activeTabs === "technology" && (
+            <TechnologyTabs/>
+          )}
+        {activeTabs === "contact" && (
+            <ContactTabs/>
+          )}
+      </div>
     </div>
   )
 }

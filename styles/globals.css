@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Handlee', cursive;
+  /* font-family: 'Handlee', cursive; */
+  /* font-family: 'Rancho', cursive; */
+  font-family: 'Quicksand', sans-serif;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -17,7 +21,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #eab308;
+  background: #FCC75B;
 }
 
 /* Handle on hover */
@@ -87,8 +91,4 @@ body {
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
   }
-@layer components {
-  body {
-      @apply bg-gradient-to-r from-zinc-900 to-zinc-800
-      }
-}
+

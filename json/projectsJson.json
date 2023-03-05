@@ -1,31 +1,34 @@
 [
     {
         "projects" : "Android Studio",
-        "imageUrl": "https://dummyimage.com/350x350/000/fff",
-        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
+        "imageUrl": {
+            "name" : "https://dummyimage.com/350x350/000/fff",
+            "alt": "Android Studio"
+        },
+        "paragraph": "Create app storage simple and build save to local storage",
         "url": "#",
         "technology" : ["test", "test2"]
     },
     {
-        "projects" : "Android Studio2",
-        "imageUrl": "https://dummyimage.com/350x350/000/fff",
-        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
+        "projects" : "Build Web App",
+        "imageUrl": {
+            "name" : "https://dummyimage.com/350x350/000/fff",
+            "alt": "build app"
+        },
+        "paragraph": "Create app storage simple and build save to local storage",
         "url": "#",
         "technology" : ["test", "test2"]
     },
     {
-        "projects" : "Android Studio3",
-        "imageUrl": "https://dummyimage.com/350x350/000/fff",
+        "projects" : "Ecommerce Nuxt Js",
+        "imageUrl": {
+            "name" : "https://dummyimage.com/350x350/000/fff",
+            "alt": "Android Studio"
+        },
         "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
         "url": "#",
-        "technology" : ["test", "test2"]
-    },
-    {
-        "projects" : "Android Studio3",
-        "imageUrl": "https://dummyimage.com/350x350/000/fff",
-        "paragraph": "Lorem dummyimage ipsum tak tuslsq asdas1qw wqd",
-        "url": "#",
-        "technology" : ["test", "test2"]
+        "technology" : ["Laravel 9", "Nuxt Js"]
     }
+    
     
 ]

@@ -1,9 +1,10 @@
 import Header from './header';
-import Footer from './footer';
+import Footer from './Footer';
 import Head from 'next/head';
 
 function Container({ children, title }) {
   return (
+    
     <div className='flex justify-center container mx-auto max-w-2xl '>
       <div className='flex flex-col mt-10 min-h-screen justify-between'>
         <div>
